@@ -6,7 +6,7 @@ in the next step you can Select the user that you want to extract Custom Jumplis
 
 When Choose all user, extract all existed user in that drive and concat all Jumplist data via JLEcmd.
 
-After End of analysis you can see the Vendor of mac Extract frome Jumplist file.
+After End of analysis you can see the Vendor of mac Extract from Jumplist file.
 
 In the first Table show You can See system connectiones that extract from jump list.
 
