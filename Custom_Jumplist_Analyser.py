@@ -37,7 +37,7 @@ def tableshow_suspicuos(directory):
     df = (df[df['Arguments'].astype(str).str.contains('cmd') | df['Arguments'].astype(str).str.contains('powershell')| df['Arguments'].astype(str).str.contains('\.ps1')
     | df['Arguments'].astype(str).str.contains('\.bat')| df['Arguments'].astype(str).str.contains('\.hta')| df['Arguments'].astype(str).str.contains('\.py') 
     |df['Arguments'].astype(str).str.contains('\.exe') |df['Arguments'].astype(str).str.contains('\.js')  ])
-    #df.to_csv('C:\\Users\\Mr.na\\Documents\\pythonnew\\Jumplist\\Export\\Mr.na\\report1.csv' , index=False, quoting=1)
+   
     tabloo.show(df)
     return
 def listdir_check(input1):
@@ -49,7 +49,7 @@ def Tableshow_connection(directory):
     'HeaderFlags','DriveType','VolumeSerialNumber','VolumeLabel','CommonPath','TargetMFTEntryNumber','TargetMFTSequenceNumber','TrackerCreatedOn','ExtraBlocksPresent'], axis=1)
     df =  (df[df['MachineMACAddress'].notnull()])
     df = (df[df['Arguments'].astype(str).str.contains('http') | df['Arguments'].astype(str).str.contains('file')])
-    #df.to_csv('C:\\Users\\Mr.na\\Documents\\pythonnew\\Jumplist\\Export\\Mr.na\\report1.csv' , index=False, quoting=1)
+ 
     tabloo.show(df)
     return
 while True:
