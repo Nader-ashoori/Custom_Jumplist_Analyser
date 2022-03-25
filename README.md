@@ -1,4 +1,4 @@
-# Custom Jumplist Analyser
+# Custom Jumplist Analyzer
 Using this python file to Basic Analysis and Automation extract Custom Jumplist By detect Users in Each Drive.
 Run python file without any switches And you can set your Drive letter Because sometimes you Mounted image so that is better to select drive letter.
 
